@@ -1,5 +1,3 @@
-""" hello.py """
-
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -7,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return jsonify({
-        'hello': 'world'
+        'hi': 'kan'
     })
 
 if __name__ == '__main__':
