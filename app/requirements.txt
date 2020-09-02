@@ -1,6 +1,2 @@
 Flask
-MarkupSafe
-argparse
-itsdangerous
-wsgiref
 
